@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="karenstyle.css">
+  <title>mailbox</title>
+  <meta charset="utf-8" />
+  <script type="text/javascript">
+function myFunction() 
+  {
+ 
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") 
+        {
+        x.style.display = "block";
+        }
+       else {
+        x.style.display = "none";
+            }
+  }
+  </script>
+
+</style>
+</head>
+
+<body>
+
+  <div class="main">
+    <h1>Share a story</h1>  
+
+      <div id="myDIV" contenteditable="true" style="width: 200px; height: 200px; padding: 20px 20px;background-color: lightgreen"> One beautiful sunny day, a car hit my dog.
+      </div>
+
+    <br />
+
+    <div>
+    <input type="image" src="img/share.png" onclick="myFunction()" style="width:100px; height: 100px;"></input>
+    </div>
+    
+
+
+
+  </div>
+
+  
+</body>
+</html>
