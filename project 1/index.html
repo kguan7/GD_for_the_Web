@@ -1,48 +1,67 @@
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-
-	<link rel="stylesheet" type="text/css" href="karenstyle.css">
-  <title>mailbox</title>
-  <meta charset="utf-8" />
-  <script type="text/javascript">
-function myFunction() 
-  {
- 
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") 
-        {
-        x.style.display = "block";
-        }
-       else {
-        x.style.display = "none";
-            }
-  }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="karenstyle.css">
+  <style>
+  #grandpadied { width: 150px; height: 150px; padding: 0.5em; }
+  #bestfriend { width: 300px; height: 350px; }
+  #vegetable{ width: 150px; height: 150px; padding: 0.5em; }
+  #colorist { width: 300px; height: 330px; }
+  #blanchett { width: 300px; height: 300px; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#grandpadied").draggable();
+  } );
+   $( function() {
+    $( "#vegetable").draggable();
+  } );
+     $( function() {
+    $( "#colorist").draggable();
+  } );
+     $( function() {
+    $( "#bestfriend").draggable();
+  } );
+     $( function() {
+    $( "#blanchett").draggable();
+  } );
   </script>
 
-</style>
 </head>
+<body bgcolor="000033">
 
-<body>
+<h3 style="color:pink">shared</h3>
 
-  <div class="main">
-    <h1>Share a story</h1>  
+	<div id="grandpadied" class="ui-widget-content colorblack">
+  		<p style="color: pink">My grandfather died when I was 10 and I didn't know how to grieve</p>
+	</div>
 
-      <div id="myDIV" contenteditable="true" style="width: 200px; height: 200px; padding: 20px 20px;background-color: lightgreen"> One beautiful sunny day, a car hit my dog.
-      </div>
+	<div id="blanchett" style="border: 3px solid blue"; class="ui-widget-content">
+ 		 <img id= "cate" src="img/12.png" style="width: 300px"/>
+	</div>
 
-    <br />
-
-    <div>
-    <input type="image" src="img/share.png" onclick="myFunction()" style="width:100px; height: 100px;"></input>
-    </div>
-    
-
+	<div id="vegetable" bgcolor="blue" class="ui-widget-content colorblue">
+  		<p style="color: pink">My favorite vegetable is the greenbean</p>
+	</div>
 
 
-  </div>
+	<div id="colorist" class="ui-widget-content" style="border: 3px solid orange";>
+ 		 <img id="colorist" src="img/1.png" style="width: 300px; height: 330px;"/>
+	</div>
 
-  
+
+	<div id="bestfriend" class="ui-widget-content" style="border: 3px solid orange";>
+  		<img id= "facebook2" src="img/2.png" style="width: 300px"/>
+	</div>
+
+
+ 
+ 
 </body>
 </html>

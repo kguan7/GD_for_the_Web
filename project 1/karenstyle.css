@@ -1,20 +1,12 @@
-
-h1
-{
-	padding-left: 50px;
-	padding-top: 50px;
+div {
+	float: right;
 }
-
-
-
-#myDIV 
-{
-	margin-left: 400px;
-	margin-top: 50px;
+.colorblue{
+	background-color: blue;
 }
-
-input 
-{
-	margin-left: 465px;
-	margin-top: 50px;
+.borderblue: {
+	border: 3px solid blue;
+}
+.colorblack{
+	background-color: black;
 }
