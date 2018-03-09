@@ -1,20 +1,26 @@
-
-h1
-{
-	padding-left: 50px;
-	padding-top: 50px;
+div {
+	position: absolute; // Reposition logo from the natural layout
+  left: 75px;
+  top: 75px;
+  width: 300px;
+  height: 200px;
+  z-index: 2;
 }
 
-
-
-#myDIV 
-{
-	margin-left: 400px;
-	margin-top: 50px;
+h3 {
+	position: absolute; // Reposition logo from the natural layout
+  left: 200px;
+  top: 75px;
+  width: 300px;
+  height: 200px;
+  z-index: 2;
 }
-
-input 
-{
-	margin-left: 465px;
-	margin-top: 50px;
+.colorblue{
+	background-color: blue;
+}
+.borderblue: {
+	border: 3px solid blue;
+}
+.colorblack{
+	background-color: black;
 }

@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDsgsBXCllz6E4loTHXX7uls6ol5Q262ic",
+    authDomain: "project-1-be231.firebaseapp.com",
+    databaseURL: "https://project-1-be231.firebaseio.com",
+    projectId: "project-1-be231",
+    storageBucket: "project-1-be231.appspot.com",
+    messagingSenderId: "733942162112"
+  };
+  firebase.initializeApp(config);
+</script>
+
+	<link rel="stylesheet" type="text/css" href="karenstyle.css">
+  <title>mailbox</title>
+  <meta charset="utf-8" />
+  <script type="text/javascript">
+
+  </script>
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+  <!-- CodeMirror -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css"/>
+
+  <!-- Firepad -->
+  <link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css" />
+  <script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
+</style>
+</head>
+
+<body onload="init()">
+  <div id="firepad"></div>
+
+  </script>>
+
+  <body onload="init()">
+  <div id="firepad"></div>
+  <script>
+    function init() {
+      // Initialize Firebase.
+      // TODO: replace with your Firebase project configuration.
+      var config = {
+    apiKey: "AIzaSyDsgsBXCllz6E4loTHXX7uls6ol5Q262ic",
+    authDomain: "project-1-be231.firebaseapp.com",
+    databaseURL: "https://project-1-be231.firebaseio.com",
+    projectId: "project-1-be231",
+    storageBucket: "project-1-be231.appspot.com",
+    messagingSenderId: "733942162112"
+        };
+      firebase.initializeApp(config);
+
+      // Get Firebase Database reference.
+      var firepadRef = firebase.database().ref();
+
+      // Create CodeMirror (with lineWrapping on).
+      var codeMirror = CodeMirror(document.getElementById('firepad'), { lineWrapping: true });
+
+      // Create Firepad (with rich text toolbar and shortcuts enabled).
+      var firepad = Firepad.fromCodeMirror(firepadRef, codeMirror, {
+        richTextShortcuts: true,
+        richTextToolbar: true,
+        defaultText: 'Hello, World!'
+      });
+    }
+  </script>
+</body>
+
+  
+</body>
+</html>
