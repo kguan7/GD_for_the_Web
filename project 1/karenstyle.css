@@ -1,4 +1,5 @@
 div {
+<<<<<<< HEAD
 	position: absolute; // Reposition logo from the natural layout
   left: 75px;
   top: 75px;
@@ -18,6 +19,13 @@ h3 {
 .colorblue{
 	background-color: blue;
 }
+=======
+	float: right;
+}
+.colorblue{
+	background-color: blue;
+}
+>>>>>>> 478132f36abbf241568e3358fa562cf882f31033
 .borderblue: {
 	border: 3px solid blue;
 }
