@@ -41,20 +41,20 @@ div.third {
 
 .directtext {
 
-  background-color: #963BBB;
+  background-color: #9655FF;
   opacity: 0.75;
 }
 
 
 .directborder {
 
-  border: 5px solid #963BBB;
+  border: 5px solid #9655FF;
   opacity: 0.75;
 }
 
 .directheader {
 
-  border-top: 40px solid #963BBB;
+  border-top: 40px solid #9655FF;
    opacity: 0.75;
 }
 
@@ -63,7 +63,7 @@ div.third {
 .private {
 
   opacity: 0.1;
-  background-color: #250075;
+  background-color: #6A6FFF;
 }
 
 
