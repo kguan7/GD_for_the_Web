@@ -3,22 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Draggable - Default functionality</title>
+  <title>yo</title>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
   <link rel="stylesheet" type="text/css" href="karenstyle.css">
   <style>
-  #grandpadied { width: 150px; height: 150px; padding: 0.5em; }
-  #bestfriend { width: 300px; height: 350px; }
-  #vegetable{ width: 150px; height: 150px; padding: 0.5em; }
-  #colorist { width: 300px; height: 330px; }
-  #blanchett { width: 300px; height: 300px; }
-  #blanchett2 { width: 300px; height: 300px; }
 
-
+   #vegetable { width: 150px; padding: 1em; }
+   #grandpadied { width: 150px; padding: 1em; }
+   #instructions {width: 220px; height: 220px; padding: 0.5em; border: 3px solid white;}
+   
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
+    
+  $( function() {
+    $( "#blanchett2" ).draggable();
+  } );
   $( function() {
     $( "#grandpadied").draggable();
   } );
@@ -32,86 +34,207 @@
     $( "#bestfriend").draggable();
   } );
      $( function() {
-
-    $( "#blanchett blanchett2").draggable();
+    $( "#blanchett").draggable();
   } );
-      $( function() {
-    $( "#blanchett2").draggable();
-  } );
-      $( function() {
+   $( function() {
     $( "#suga").draggable();
   } );
-      $( function() {
-    $( "#drawing").draggable();
-      } );
-     $( function() {
-    $( "#blanchett").draggable();
-
+   $( function() {
+    $( "#comic").draggable();
+  } );
+   $( function() {
+    $( "#comic2").draggable();
+  } );
+   $( function() {
+    $( "#anderson").draggable();
+  } );
+   $( function() {
+    $( "#sami").draggable();
+  } );
+   $( function() {
+    $( "#puppy").draggable();
+  } );
+   $( function() {
+    $( "#wonho").draggable();
+  } );
+   $( function() {
+    $( "#radish").draggable();
+  } );
+   $( function() {
+    $( "#chameleon").draggable();
+  } );
+   $( function() {
+    $( "#instructions").draggable();
+  } );
+   $( function() {
+    $( "#name").draggable();
+  } );
+   $( function() {
+    $( "#trouble").draggable();
+  } );
+   $( function() {
+    $( "#plant").draggable();
+  } );
+   $( function() {
+    $( "#poop").draggable();
+  } );
+   $( function() {
+    $( "#poetry").draggable();
+  } );
+   $( function() {
+    $( "#tears").draggable();
+  } );
+  $( function() {
+    $( "#miss").draggable();
+  } );
+   $( function() {
+    $( "#leave").draggable();
+  } );
+   $( function() {
+    $( "#corn").draggable();
+  } );
+   $( function() {
+    $( "#origami").draggable();
   } );
   </script>
+  </script>
+
 
 </head>
-<body bgcolor="000033">
 
-<h3 style="color:pink">shared</h3>
-
-<h2 style="color:pink">click and drag</h3>
+<body bgcolor= #FFCEE6>
 
 
-	<div id="grandpadied" class="ui-widget-content colorblack">
-  		<p style="color: pink">My grandfather died when I was 10 and I didn't know how to grieve</p>
-	</div>
+<!--private-->
+<div id="grandpadied" class="ui-widget-content private second">
+      <p style="color: pink; font-size: 12px">My grandfather died when I was 10 and I didn't know how to grieve</p>
+</div>
+
+<div id="trouble" class="ui-widget-content private second">
+      <p style="color: pink; font-size: 12px">I have troubles with jealousy</p>
+</div>
+
+<div id="poop" class="ui-widget-content private third">
+      <p style="color: pink; font-size: 12px">I pooped my pants once; not as a baby</p>
+</div>
+
+<div id="poetry" class="ui-widget-content private first">
+      <p style="color: pink; font-size: 12px">I wrote emo poetry in middle school</p>
+</div>
+
+<div id="tears" class="ui-widget-content private first">
+      <p style="color: pink; font-size: 12px">I used to cry a lot</p>
+</div>
 
 
-  <div id="suga" class="ui-widget-content" style="border: 3px solid blue";>
-      <img id= "suga" src="img/10.png" style="width: 300px"/>
-  </div>
-
-	<div id="blanchett" style="border: 3px solid blue"; class="ui-widget-content">
- 		 <img id= "cate" src="img/12.png" style="width: 300px"/>
-	</div>
-
-  <div id="blanchett2" style="border: 3px solid blue"; class="ui-widget-content">
-     <img id= "cate2" src="img/13.png" style="width: 300px"/>
-  </div>
-
-	<div id="blanchett" style="border: 3px solid blue"; class="ui-widget-content">
- 		 <img id= "cate" src="img/12.png" style="width: 300px"/>
-	</div>
-
-	<div id="vegetable" bgcolor="blue" class="ui-widget-content colorblue">
-  		<p style="color: pink">My favorite vegetable is the greenbean</p>
-	</div>
 
 
-	<div id="colorist" class="ui-widget-content" style="border: 3px solid orange";>
- 		 <img id="colorist" src="img/1.png" style="width: 300px; height: 330px;"/>
-	</div>
+<!--direct message-->
+<div id="suga" class="ui-widget-content directheader first">
+     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">the duality of yoongi still has me shaking<a href="https://twitter.com/BTS_twt?ref_src=twsrc%5Etfw">@BTS_twt</a> <a href="https://twitter.com/hashtag/GeniusYoongiDay?src=hash&amp;ref_src=twsrc%5Etfw">#GeniusYoongiDay</a> <a href="https://twitter.com/hashtag/iHeartawards?src=hash&amp;ref_src=twsrc%5Etfw">#iHeartawards</a> <a href="https://twitter.com/hashtag/BestFanArmy?src=hash&amp;ref_src=twsrc%5Etfw">#BestFanArmy</a> <a href="https://twitter.com/hashtag/BTSARMY?src=hash&amp;ref_src=twsrc%5Etfw">#BTSARMY</a> <a href="https://t.co/Bc0pshkLUJ">pic.twitter.com/Bc0pshkLUJ</a></p>&mdash; jess ✈ s/h (@jiminthrusts) <a href="https://twitter.com/jiminthrusts/status/971778969014947840?ref_src=twsrc%5Etfw">March 8, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 
-	<div id="vegetable" bgcolor="blue" class="ui-widget-content colorblue">
-  		<p style="color: pink">My favorite vegetable is the greenbean</p>
-	</div>
+<div id="blanchett2" class="ui-widget-content directborder second">
+  <img id= "cate2" src="img/13.png" style="width: 400px;"/>
+</div>
 
 
- <div id="drawing" class="ui-widget-content" style="border: 3px solid blue";>
-      <img id= "drawing" src="img/7.png" style="width: 300px"/>
-  </div>
-
-	<div id="colorist" class="ui-widget-content" style="border: 3px solid orange";>
- 		 <img id="colorist" src="img/1.png" style="width: 300px; height: 330px;"/>
-	</div>
+<div id="poop" class="ui-widget-content private third">
+      <p style="color: pink; font-size: 12px">I pooped my pants once when I was in 9th grade</p>
+</div>
 
 
-	<div id="bestfriend" class="ui-widget-content" style="border: 3px solid orange";>
-  		<img id= "facebook2" src="img/2.png" style="width: 300px"/>
-	</div>
-
-	<div id="bestfriend" class="ui-widget-content" style="border: 3px solid orange";>
-  		<img id= "facebook2" src="img/2.png" style="width: 300px"/>
-	</div>
+<div id="comic" class="ui-widget-content directborder second">
+  <img src="img/14.png" style="width: 400px;"/>
+</div>
 
 
+<div id="blanchett" class="ui-widget-content directheader first">
+     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Cate Blanchett accidentally slapping Chris Hemsworth during Thor Ragnarok filming is pure art. These really are good bloopers. 😂 <a href="https://t.co/Du5wwAP49m">pic.twitter.com/Du5wwAP49m</a></p>&mdash; dani (@TowerwhiteDani) <a href="https://twitter.com/TowerwhiteDani/status/964679758045835265?ref_src=twsrc%5Etfw">February 17, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<div id="comic2" class="ui-widget-content directborder first">
+  <img src="img/15.png" style="width: 400px;"/>
+</div>
+
+<div id="vegetable" class="ui-widget-content directtext second" style="width: 150px">
+      <p style="color: pink">My favorite vegetable is the greenbean</p>
+</div>
+
+<div id="wonho" class="ui-widget-content directheader third">
+     <blockquote class="twitter-tweet" data-lang="en"><p lang="ht" dir="ltr">cr. juseyowonho <a href="https://t.co/3BXJLqozhv">pic.twitter.com/3BXJLqozhv</a></p>&mdash; wonho pics (@wonhopic) <a href="https://twitter.com/wonhopic/status/945361997163528192?ref_src=twsrc%5Etfw">December 25, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div id="name" class="ui-widget-content directtext second" style="width: 150px">
+      <p style="color: pink">My name is Karen</p>
+</div>
+
+</div>
+
+<div id="radish" class="ui-widget-content directheader third">
+    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftokyootakumode%2Fvideos%2F2003360833024795%2F&show_text=1&width=560" width="560" height="426" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</div>
+
+<div id="miss" class="ui-widget-content directtext second" style="width: 150px">
+      <p style="color: pink">Sometimes I miss it.</p>
+</div>
+
+
+<div id="leave" class="ui-widget-content directtext third" style="width: 150px">
+      <p style="color: pink">I was glad to leave.</p>
+</div>
+
+<div id="corn" class="ui-widget-content directtext third" style="width: 150px">
+      <p style="color: pink">I grew up in Michigan, across from a field of corn.</p>
+</div>
+
+<div id="chameleon" class="ui-widget-content directheader third">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ImK7w8lmDhY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
+
+<div id="origami" class="ui-widget-content directtext third" style="width: 150px">
+      <p style="color: pink">I wish I knew how to fold origami</p>
+</div>
+
+
+<!--general message-->
+<div id="colorist" class="ui-widget-content general first";>
+     <img id="colorist" src="img/1.png" style="width: 400px;"/>
+</div>
+
+<div id="bestfriend" class="ui-widget-content general first">
+      <img id= "facebook2" src="img/2.png" style="width: 400px;"/>
+</div>
+
+<div id="sami" class="ui-widget-content generalheader first">
+      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thanks everyone for the support!! 😭 I love you all...to all the fans I will not let you down.</p>&mdash; Samantha Wong (@classisami) <a href="https://twitter.com/classisami/status/973356387014201346?ref_src=twsrc%5Etfw">March 13, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<div id="anderson" class="ui-widget-content generalheader third">
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FIJRBlue%2Fvideos%2F1972308763025679%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</div>
+
+<div id="puppy" class="ui-widget-content generalheader second">
+     <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fpittienationdodo%2Fvideos%2F191911254755593%2F&show_text=1&width=476" width="476" height="625" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</div>
+
+
+<div id="instructions" class="ui-widget-content generaltext first" style="width: 220px">
+      <p style="color: white; font-family: Palatino; font-size:230%;"><i>Click and drag to uncover different shared things</i></p>
+</div>
+
+<div id="plant" class="ui-widget-content general third">
+      <img src="img/16.png" style="width: 400px;"/>
+</div>
+
+
+<script id="twitter-wjs" type="text/javascript" async defer src="//platform.twitter.com/widgets.js"></script>
 
  
  

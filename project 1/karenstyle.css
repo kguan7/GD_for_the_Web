@@ -1,34 +1,78 @@
-div {
+div.first {
 
-	position: absolute; // Reposition logo from the natural layout
-  left: 75px;
-  top: 75px;
-  width: 300px;
-  height: 200px;
-  z-index: 2;
+	position: absolute; 
+  left: 40px;
+
 }
 
+div.second {
+
+  position: absolute; 
+  left: 300px;
+  top: 120px;
+
+}
+
+div.third {
+
+  position: absolute; 
+  left: 725px;
+  top: 40px
+
+
+}
+
+.general {
+
+  border: 5px solid #FF1C8B;
+}
+
+.generalheader {
+
+  border-top: 40px solid #FF1C8B;
+
+}
+
+.generaltext{
+
+   background-color: #FF1C8B;
+
+}
+
+.directtext {
+
+  background-color: #963BBB;
+  opacity: 0.75;
+}
+
+
+.directborder {
+
+  border: 5px solid #963BBB;
+  opacity: 0.75;
+}
+
+.directheader {
+
+  border-top: 40px solid #963BBB;
+   opacity: 0.75;
+}
+
+
+
+.private {
+
+  opacity: 0.1;
+  background-color: #250075;
+}
+
+
 h3 {
-	position: absolute; // Reposition logo from the natural layout
+	position: absolute; 
   left: 200px;
   top: 75px;
   width: 300px;
   height: 200px;
   z-index: 2;
 }
-.colorblue{
-	background-color: blue;
-}
 
-	float: right;
-}
-.colorblue{
-	background-color: blue;
-}
-
-.borderblue: {
-	border: 3px solid blue;
-}
-.colorblack{
-	background-color: black;
-}
