@@ -1,70 +1,145 @@
+body{
+  background-color: #000033;
+}
+
+img{
+
+width: 400px;
+
+}
+
+p{
+  color: white;
+  width: 200px;
+
+}
+
+/*columns*/
+
 div.first {
 
-	position: absolute; 
-  left: 40px;
+  position: absolute;
+  left: 2vw;
+  top: 2vw;
+  display: block;
+
+
 
 }
 
 div.second {
 
-  position: absolute; 
-  left: 300px;
-  top: 120px;
+  position: absolute;
+  top: 11vw;
+  left: 27vw;
+  display: block;
+
 
 }
 
 div.third {
-
-  position: absolute; 
-  left: 725px;
-  top: 40px
+  
+  position: absolute;
+  top: 5vw;
+  left: 65vw;
+  display: block;
 
 
 }
 
-.general {
 
-  border: 5px solid #FF1C8B;
+.misplace{
+
+  position: absolute;
+  top: 20vw;
+  left: 50vw;
+  display: block;
+
+}
+
+.slant{
+  margin-top: 3vw;
+  margin-left: 2vw;
+}
+
+/*borders*/
+
+.generalborder {
+
+  border: 5px solid #0033ff;
+  background-color: white;
+  width: 400px;
 }
 
 .generalheader {
 
-  border-top: 40px solid #FF1C8B;
+  border-top: 50px solid #0033ff;
+  background-color: white;
+  width: 400px;
 
 }
 
+
+
 .generaltext{
 
-   background-color: #FF1C8B;
+  background-color: #0033ff;
 
+}
+
+#bunny {
+  width: 400px;
 }
 
 .directtext {
 
-  background-color: #9655FF;
+  background-color: #0033ff;
   opacity: 0.75;
+  padding: 10px;
+
 }
 
 
 .directborder {
 
-  border: 5px solid #9655FF;
+  border: 5px solid #0033ff;
   opacity: 0.75;
+  background-color: white;
+  width: 400px;
 }
 
 .directheader {
 
-  border-top: 40px solid #9655FF;
-   opacity: 0.75;
+  border-top: 50px solid #0033ff;
+  opacity: 0.75;
+  width: 400px;
+  background-color: white;
 }
 
+
+
+#woozihoshi{
+  width: 350px;
+  position: absolute;
+  left: 5vw;
+  top: 3vw;
+  display: block;
+}
+
+
+#olympics{
+  width: 267px;
+}
 
 
 .private {
 
   opacity: 0.1;
-  background-color: #6A6FFF;
+  background-color: #0033ff;
+  padding: 10px;
+
 }
+
 
 
 h3 {
@@ -74,5 +149,72 @@ h3 {
   width: 300px;
   height: 200px;
   z-index: 2;
+
 }
+
+#stvincent {
+  
+  position: absolute;
+  top: 9vw;
+  left: 43vw;
+  display: block;
+}
+
+@media only screen and (max-width: 900px) {
+
+
+/*    .ui-widget-content{
+      width:200px;
+      height: 200px;
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+    }*/
+  
+  div.first {
+
+      position: absolute;
+      top: 2vw;
+      left: 2vw;
+      display: block;
+
+    }
+
+    div.second {
+
+      position: absolute;
+      top: 10vw;
+      left: 15vw;
+      display: block;
+ 
+
+    }
+
+    div.third {
+      position: absolute;
+      top: 5vw;
+      left: 50vw;
+      display: block;
+
+    }
+
+/*    #anderson{
+      margin-right:-80vw;
+
+    }
+}
+*/
+/*@media only screen and (max-width: 625px) {
+
+  body {
+      background-color: red;
+  }
+  #anderson{
+float: left;
+margin-right: none;
+  }
+}
+*/
 
