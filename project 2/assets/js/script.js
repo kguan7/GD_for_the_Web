@@ -6,17 +6,8 @@ $("#drake").click(function(){
 	$("#jcole").toggle();
 });
 
-
-$("#weeknd").click(function(){
-	$("#bigsean2").toggle();
-});
-
 $("#jcole").click(function(){
 	$("#bigsean").toggle();
-});
-
-$("#bigsean2").click(function(){
-	$("#jcole2").toggle();
 });
 
 $("#bigsean").click(function(){
@@ -46,6 +37,27 @@ $("#rocko").click(function(){
 $("#webbie").click(function(){
 	$("#foxx").toggle();
 });
+
+$("#cardi").click(function(){
+	$("#nicki").toggle();
+});
+
+$("#nicki").click(function(){
+	$("#tori").toggle();
+});
+
+$("#tori").click(function(){
+	$("#meghan").toggle();
+});
+
+$("#meghan").click(function(){
+	$("#fifth").toggle();
+});
+
+$("#fifth").click(function(){
+	$("#pretty").toggle();
+});
+
 // $("img.toggler").click(function(){
 //     $(this).next().toggle(10);
 // });
