@@ -1,0 +1,34 @@
+.hide {
+  opacity: 0;
+  background-image: opacity: 0;
+}
+
+.gradient {
+  background: linear-gradient(135deg, #ff0000 1%,#fff200 20%,#00ffdd 40%,#090df9 60%,#ff0af6 80%,#ff0004 100%);
+  color: white;
+}
+
+.quilt {
+	background-image: url("https://www.springfieldart.net/wp-content/uploads/2013/02/TradAmish-Bontrager-Detail.jpg");
+}
+
+.border{
+	border: 10px;
+	border-color: black;
+}
+
+.rotate{
+	transform: rotate(180deg);
+}
+
+.pink{
+	background-image: opacity: 0;
+	background-color: deeppink;
+	opacity: 1
+
+}
+
+background-image{
+	opacity: 0;
+}
+
