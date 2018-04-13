@@ -37,7 +37,18 @@ $("#rickross").click(function(){
 $("#acehood").click(function(){
 	$("#acedro").toggle();
 });
-		
+
+$("#acedro").click(function(){
+	$("#rocko").toggle();
+});
+
+$("#rocko").click(function(){
+	$("#webbie").toggle();
+});
+
+$("#webbie").click(function(){
+	$("#foxx").toggle();
+});
 // $("img.toggler").click(function(){
 //     $(this).next().toggle(10);
 // });
