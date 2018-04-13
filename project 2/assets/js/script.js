@@ -1,9 +1,6 @@
 $(document).ready(function(){
 	// your code here
 
-$('img').click(function() {
- $('#jcole').addClass('show');
-});
 
 $("#drake").click(function(){
 	$("#jcole").toggle();
