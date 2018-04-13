@@ -1,0 +1,84 @@
+* {margin: 0px; padding 0px;}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	min-width: 100vw;
+
+	background: black;
+
+}
+
+#content {
+	color: white;
+}
+
+#pass {
+	font-size: 50px;
+	text-align: center;
+	line-height: 100vh;
+	color: white;
+	opacity: 0;
+}
+
+img.next{
+	width: 212px;
+	height: 250.5px;
+	float: left;
+}
+
+img.first{
+	width: 212px;
+	height: 250.5px;
+	position: absolute;
+	top: 0px;
+	left:0px;
+}
+
+.second{
+	width: 212px;
+	height: 250.5px;
+	position: absolute;
+	top: 250.5px;
+	left:0px;
+}
+
+
+img.pink{
+	border-style: solid;
+    border-width: 5px;
+    border-color: deeppink;
+}
+
+.hidden{
+	display: none;
+}
+
+.wrapper {
+  position: relative;
+  overflow: auto;
+}
+
+.content {
+  position: absolute;
+  width: 30000px;
+}
+
+
+/*.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+ Create four equal columns that sits next to each other 
+.column {
+  flex: 10%;
+  max-width: 25%;
+  padding: 0 4px;
+}*/
+
+
+
+
+
