@@ -9,76 +9,117 @@ body {
 
 }
 
-#content {
-	color: white;
-}
+/*#container {
+  position: absolute;
+  width: 1280px;
+}*/
 
-#pass {
-	font-size: 50px;
-	text-align: center;
-	line-height: 100vh;
-	color: white;
-	opacity: 0;
-}
 
-img.next{
-	width: 212px;
-	height: 250.5px;
+
+img.next {
+	width: 12.5vw;
+	height: 14.7vw;
 	float: left;
 }
 
-img.first{
-	width: 212px;
-	height: 250.5px;
-	position: absolute;
+img.second {
+	width: 12.5vw;
+	height: 14.7vw;
+	float: right;
+}
+
+#wrapper .text {
+	position:absolute;
 	top: 0px;
-	left:0px;
-}
+	left:12.5vw;
+	width: 12.3vw;
+	height: 14.4vw;
+	visibility:hidden;
+	color: red;
 
-.second{
-	width: 212px;
-	height: 250.5px;
-	position: absolute;
-	top: 250.5px;
-	left:0px;
-}
-
-
-img.pink{
 	border-style: solid;
-    border-width: 5px;
-    border-color: deeppink;
+	border-width: 2px;
+	border-color: red;
+	opacity: 0.7;
+
+}
+
+#wrapper .text p {
+
+	padding-left: 12px
+}
+
+
+#wrapper:hover .text {
+	visibility:visible;
+}
+
+img:hover{
+	opacity: 0.7;
+}
+
+p {
+	font-family: helvetica;
+	color: red;
+}
+
+#description{
+	margin-left: 26px;
+	padding-top: 70px;
+	font-family: helvetica;
+	color: red;
+}
+
+.spacer {
+	width: 12.5vw;
+	height: 14.7vw;
+	float: right;
 }
 
 .hidden{
 	display: none;
 }
 
-.wrapper {
-  position: relative;
-  overflow: auto;
+#key {
+
+	position: fixed;
+	top: 20px;
+	right: 50px;
+	opacity: 0.7;
+
 }
 
-.content {
-  position: absolute;
-  width: 30000px;
+#key3 {
+
+	position: fixed;
+	top: 106px;
+	right: 50px;
+	opacity: 0.7;
+
 }
 
+#key2 {
 
-/*.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 0px;
+	position: fixed;
+	top: 65px;
+	right: 50px;
+	opacity: 0.7;
+
 }
 
- Create four equal columns that sits next to each other 
-.column {
-  flex: 10%;
-  max-width: 25%;
-  padding: 0 4px;
+#grad {
+
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	width: 20px;
+	height: 100px;
+    background: linear-gradient(red, yellow, cyan);
+}
+
+/*.hidden{
+	opacity: 0;
 }*/
-
-
 
 
 
