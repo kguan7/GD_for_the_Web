@@ -330,9 +330,9 @@ $("#keylo").click(function(){
 $("#noh").click(function(){
 	$("#cin").toggle();
 });
-// $("img.toggler").click(function(){
-//     $(this).next().toggle(10);
-// });
+$("img.toggler").click(function(){
+    $(this).next().toggle(10);
+});
 	// n = 0;
 	// $('body').click(function(){
 	// 	n = n + 1;	
