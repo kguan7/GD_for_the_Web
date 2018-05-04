@@ -1,0 +1,27 @@
+video{
+
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 20vw;
+	display: none;
+}
+
+div {
+    display: none;
+}
+    
+iframe:hover + div{
+    display: block;
+}
+
+iframe{
+	padding: 1em;
+}
+
+.text{
+	position: absolute;
+	top: 10vw;
+	left: 10vw;
+}
+
