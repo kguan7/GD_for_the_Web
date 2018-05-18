@@ -341,6 +341,16 @@ p{
 
 }
 
+#sailor{
+  position: fixed;
+  top: 30.3vw;
+  left: 19.7vw;
+  width: 60vw;
+
+}
+
+
+
 .five{
   position: fixed;
   top: 4.1vw;
