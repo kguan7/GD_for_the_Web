@@ -1,0 +1,397 @@
+.height{
+	height: 9000px;
+	overflow: auto;
+}
+
+.five{
+  position: fixed;
+  top: 4.1vw;
+  left: -3.6vw;
+  width: 60vw;
+
+}
+
+.lefttop{
+	-webkit-clip-path: polygon(687px 334px,298px 62px,45px 333px);
+}
+
+div.in{
+	position: absolute;
+	top: 500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+	
+}
+
+div.out{
+  position: absolute;
+  top: 1000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in2{
+  position: absolute;
+  top: 1500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out2{
+  position: absolute;
+  top: 2000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in3{
+  position: absolute;
+  top: 2500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out3{
+  position: absolute;
+  top: 3000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in4{
+  position: absolute;
+  top: 3500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out4{
+  position: absolute;
+  top: 4000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in5{
+  position: absolute;
+  top: 4500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out5{
+  position: absolute;
+  top: 5000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in6{
+  position: absolute;
+  top: 5500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out6{
+  position: absolute;
+  top: 6000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in7{
+  position: absolute;
+  top: 6500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out7{
+  position: absolute;
+  top: 7000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in8{
+  position: absolute;
+  top: 7500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out8{
+  position: absolute;
+  top: 8000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in9{
+  position: absolute;
+  top: 8500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out9{
+  position: absolute;
+  top: 9000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in10{
+  position: absolute;
+  top: 9500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out10{
+  position: absolute;
+  top: 10000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in11{
+  position: absolute;
+  top: 10500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out11{
+  position: absolute;
+  top: 11000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.in12{
+  position: absolute;
+  top: 11500px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+div.out12{
+  position: absolute;
+  top: 12000px;
+  height: 10px;
+  border-style: solid;
+  border-color: blue;
+  
+}
+
+body{
+  background-color: white;
+
+}
+
+
+.hide{
+  display: none;
+}
+
+
+.height{
+  height: 10000px;
+  overflow: auto;
+}
+
+.first{
+  position: fixed;
+  top:  48vw;
+  left: 22vw;
+  width: 200px;
+}
+
+.second{
+  position: fixed;
+  top:  88vw;
+  left: 14vw;
+  width: 200px;
+}
+
+p{
+  font-size: 16px;
+}
+
+.one{
+  position: fixed;
+  top: 23.5vw;
+  left: -3.6vw;
+  width: 70vw;
+
+}
+
+#oprah{
+
+  position: fixed;
+  top: 23.5vw;
+  left: -3.6vw;
+  width: 55vw;
+
+}
+.two{
+  position: fixed;
+  top: 2.1vw;
+  left: 19.7vw;
+  width: 75vw;
+
+}
+
+#purple{
+
+  position: fixed;
+  top: 2vw;
+  left: 19.7vw;
+  width: 90vw;
+
+}
+
+#gwen{
+
+  position: fixed;
+  top: -11.45vw;
+  left: 19.7vw;
+  width: 70vw;
+
+}
+
+#audrey{
+
+  position: fixed;
+  top: -11.45vw;
+  left: 19.7vw;
+  width: 76vw;
+
+}
+
+.three{
+  position: fixed;
+  top: 23.5vw;
+  left: 45.5vw;
+  width: 70vw;
+
+}
+
+
+.four{
+  position: fixed;
+  top: 30.3vw;
+  left: 19.7vw;
+  width: 78vw;
+
+}
+
+#nicki{
+  position: fixed;
+  top: 30.3vw;
+  left: 19.7vw;
+  width: 62vw;
+
+}
+
+.five{
+  position: fixed;
+  top: 4.1vw;
+  left: -3.6vw;
+  width: 60vw;
+
+}
+
+.six{
+  position: fixed;
+  top: 4.1vw;
+  left: 45.7vw;
+  width: 60vw;
+
+}
+
+
+
+
+
+.topeye {
+    -webkit-clip-path: polygon(391px 361px,780px 87px,390px 0px,0px 88px);
+}
+
+.righteye {
+    -webkit-clip-path: polygon(390px 546px,643px 271px,390px 0px,0px 271px);
+}
+
+.bottomeye {
+    -webkit-clip-path: polygon(389px 360px,779px 272px,390px -1px,0px 272px);
+}
+
+.test{
+  -webkit-clip-path: polygon(298px 360px,690px 86px,43px 85px);
+
+}
+
+.closetop{
+  -webkit-clip-path: polygon(391px 533px,780px 260px,390px 171px,0px 261px);
+
+}
+
+.rightbottom{
+  -webkit-clip-path: polygon(450px 359px,705px 85px,60px 86px);
+}
+
+.lefttop{
+  -webkit-clip-path: polygon(689px 334px,298px 62px,45px 333px);
+}
+
+.righttop{
+  -webkit-clip-path: polygon(703px 334px,447px 60px,58px 334px);
+}
+

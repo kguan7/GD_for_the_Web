@@ -1,46 +1,29 @@
-/*
+
 body{
-	background-color: pink;
-}*/
+	background-color: white;
 
-/*video{
+}
 
-	position: absolute;
-	top: 0vw;
-	right: 0vw;
-	width: 100vw;
-}*/
 
 .hidden{
 	display: none;
 }
 
-   
-#anime:hover + div{
-    display: block;
+
+.height{
+	height: 10000px;
+	overflow: auto;
 }
-
-#leo:hover + div{
-    display: block;
-}
-
-
-/*.first{
-  position: absolute;
-  top:  48vw;
-  left: 68vw;
-  width: 200px;
-}*/
 
 .first{
-  position: absolute;
+  position: fixed;
   top:  48vw;
   left: 22vw;
   width: 200px;
 }
 
 .second{
-  position: absolute;
+  position: fixed;
   top:  88vw;
   left: 14vw;
   width: 200px;
@@ -50,45 +33,111 @@ p{
 	font-size: 16px;
 }
 
-img{
-	position: relative;
-	height: 20vw;
+.one{
+  position: fixed;
+  top: 23.5vw;
+  left: -3.6vw;
+  width: 70vw;
+
+}
+
+.two{
+  position: fixed;
+  top: 2vw;
+  left: 19.7vw;
+  width: 70vw;
+
+}
+
+.three{
+  position: fixed;
+  top: 23.5vw;
+  left: 45.7vw;
+  width: 70vw;
+
+}
+
+.four{
+  position: fixed;
+  top: 30.3vw;
+  left: 19.7vw;
+  width: 80vw;
+
+}
+
+.five{
+  position: fixed;
+  top: 4.1vw;
+  left: -3.6vw;
+  width: 60vw;
+
+}
+
+.six{
+  position: fixed;
+  top: 4.1vw;
+  left: 45.7vw;
+  width: 60vw;
+
 }
 
 
 
-.half{
-	clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+.element {
+    clip-path: url(#clipleft);
 }
 
-.grad {
-    background: linear-gradient(white, gray);
+.topeye {
+    clip-path: url(#cliptop);
 }
 
-.diamond {
-  position: relative;
-  height: 200px;
-  width: 200px;
-  line-height: 200px;
-  text-align: center;
+.righteye {
+    clip-path: url(#clipright);
+}
+
+.bottomeye {
+    clip-path: url(#clipbottom);
+}
+
+.test{
+	-webkit-clip-path: polygon(298px 360px,690px 86px,43px 85px);
 
 }
-.diamond:before {
+
+.rightbottom{
+	-webkit-clip-path: polygon(450px 359px,705px 85px,60px 86px);
+}
+
+.lefttop{
+	-webkit-clip-path: polygon(687px 334px,298px 62px,45px 333px);
+}
+
+.righttop{
+	-webkit-clip-path: polygon(703px 334px,450px 61px,59px 334px);
+}
+
+div.in{
+	position: absolute;
+	top: 100px;
+	height: 10px;
+  border-style: solid;
+  border-color: blue;
+	
+}
+
+div.out{
   position: absolute;
-  content: '';
-  top: -26vw;
-  left: 0vw;
-  height: 200%;
-  width: 200%;
-  transform: rotateX(65deg) rotateZ(45deg);
-  box-shadow: 0px 0px 12px gray;
+  top: 500px;
+  border-style: solid;
+  border-color: blue;
+  
 }
 
-/*.diamond:after {
-  position: absolute;
-  top: -26vw;
-  left: 63vw;
-  content: 'Data about you exists everywhere, from personal health to web browsing activity';
-  border: 1px solid black;
-  transform: rotateX(45deg) rotateZ(45deg);
+
+/*#anime:hover + div{
+    display: block;
+}
+
+#leo:hover + div{
+    display: block;
 }*/
