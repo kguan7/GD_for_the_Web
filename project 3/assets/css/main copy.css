@@ -5,7 +5,7 @@
 
 .five{
   position: fixed;
-  top: 4.1vw;
+  top: 2vw;
   left: -3.6vw;
   width: 60vw;
 
@@ -267,7 +267,7 @@ p{
 
 .one{
   position: fixed;
-  top: 23.5vw;
+  top: 21.4vw;
   left: -3.6vw;
   width: 70vw;
 
@@ -276,14 +276,14 @@ p{
 #oprah{
 
   position: fixed;
-  top: 23.5vw;
+  top: 21.5vw;
   left: -3.6vw;
   width: 55vw;
 
 }
 .two{
   position: fixed;
-  top: 2.1vw;
+  top: 0.1vw;
   left: 19.7vw;
   width: 75vw;
 
@@ -292,7 +292,7 @@ p{
 #purple{
 
   position: fixed;
-  top: 2vw;
+  top: 0.1vw;
   left: 19.7vw;
   width: 90vw;
 
@@ -301,7 +301,7 @@ p{
 #gwen{
 
   position: fixed;
-  top: -11.45vw;
+  top: -13.35vw;
   left: 19.7vw;
   width: 70vw;
 
@@ -310,7 +310,7 @@ p{
 #audrey{
 
   position: fixed;
-  top: -11.45vw;
+  top: -13.35vw;
   left: 19.7vw;
   width: 76vw;
 
@@ -318,7 +318,7 @@ p{
 
 .three{
   position: fixed;
-  top: 23.5vw;
+  top: 21.5vw;
   left: 45.5vw;
   width: 70vw;
 
@@ -327,7 +327,7 @@ p{
 
 .four{
   position: fixed;
-  top: 30.3vw;
+  top: 28.3vw;
   left: 19.7vw;
   width: 78vw;
 
@@ -335,7 +335,7 @@ p{
 
 #nicki{
   position: fixed;
-  top: 30.3vw;
+  top: 28.3vw;
   left: 19.7vw;
   width: 62vw;
 
@@ -343,7 +343,7 @@ p{
 
 #sailor{
   position: fixed;
-  top: 30.3vw;
+  top: 28.3vw;
   left: 19.7vw;
   width: 60vw;
 
@@ -353,7 +353,7 @@ p{
 
 .five{
   position: fixed;
-  top: 4.1vw;
+  top: 2.1vw;
   left: -3.6vw;
   width: 60vw;
 
@@ -361,7 +361,7 @@ p{
 
 .six{
   position: fixed;
-  top: 4.1vw;
+  top: 2.1vw;
   left: 45.7vw;
   width: 60vw;
 
